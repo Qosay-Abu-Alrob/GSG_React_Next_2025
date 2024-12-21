@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.NumberingButton {
+  @apply bg-[#3C64B1] rounded-[10px] py-5 px-7 cursor-pointer;
+}
+.OperationButton {
+  @apply bg-[#F2994A] rounded-[10px] py-5 px-7 cursor-pointer;
+}
+.EqualButton {
+  @apply col-span-3 bg-[#27AE60] rounded-[10px] py-5 px-7 cursor-pointer;
+}
+.EqualTextBox {
+  @apply rounded-[10px] py-3 px-5 bg-[#F4F6FB] my-5 text-center;
+}
+
+
+
+
